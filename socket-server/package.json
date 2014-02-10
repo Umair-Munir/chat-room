@@ -1,0 +1,17 @@
+{
+  "name": "chat-room-socket-server",
+  "version": "0.0.0",
+  "description": "Socket server for the ChatRoom app",
+  "main": "server.js",
+  "dependencies": {
+    "redis": "~0.10.0",
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "xhh",
+  "license": "MIT"
+}
