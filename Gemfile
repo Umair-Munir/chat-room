@@ -48,3 +48,6 @@ group :development do
   gem 'quiet_assets'
   gem 'thin'
 end
+
+gem 'redis'
+gem 'paloma'

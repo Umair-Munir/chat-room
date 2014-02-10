@@ -11,8 +11,8 @@
   </div>
 
   <div class="inline field">
-    <%= label_tag :room_name, "Room" %>
-    <%= text_field_tag :room_name, session[:last_room], placeholder: "Room name" %>
+    <%= label_tag :room, "Room" %>
+    <%= text_field_tag :room, session[:last_room], placeholder: "Room name" %>
   </div>
 
   <%= submit_tag "Chat!", class: "ui blue submit button" %>
