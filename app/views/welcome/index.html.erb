@@ -1,0 +1,19 @@
+<%= form_tag connection_rooms_path, method: "post", id: "room-form", class: "ui fluid form" do %>
+  <h3 class="ui header">Chat Room</h3>
+
+  <% if flash[:alert] %>
+    <div class="ui red message"><%= flash[:alert] %></div>
+  <% end %>
+
+  <div class="inline field">
+    <%= label_tag :username, "Name" %>
+    <%= text_field_tag :username, session[:username], placeholder: "Your name" %>
+  </div>
+
+  <div class="inline field">
+    <%= label_tag :room_name, "Room" %>
+    <%= text_field_tag :room_name, session[:last_room], placeholder: "Room name" %>
+  </div>
+
+  <%= submit_tag "Chat!", class: "ui blue submit button" %>
+<% end %>

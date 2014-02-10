@@ -1,0 +1,29 @@
+<div id="room-container" class="ui piled blue segment">
+  <%= link_to "Back", root_path, class: "ui right floated button" %>
+
+  <h2 class="ui header">
+    <i class="icon inverted circular blue comment"></i> <%= @room_name %>
+  </h2>
+
+  <div class="ui comments">
+    <div class="comment">
+      <div class="content">
+        <strong class="author">xhh</strong>
+        <div class="metadata">
+          <span class="date">2014-02-10 10:12:27</span>
+        </div>
+        <div class="text">
+          Hello there!
+        </div>
+      </div>
+    </div>
+    <form class="ui reply form">
+      <div class="field">
+        <textarea></textarea>
+      </div>
+      <div class="ui fluid blue labeled submit icon button">
+        <i class="icon edit"></i> Send
+      </div>
+    </form>
+  </div>
+</div>

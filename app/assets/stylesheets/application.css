@@ -11,3 +11,17 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+#room-form {
+  text-align: center;
+}
+
+#room-container {
+  width: 50%;
+  min-width: 400px;
+  margin: 30px auto;
+}
